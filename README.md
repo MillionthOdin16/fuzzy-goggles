@@ -40,10 +40,10 @@ This firmware enables a CH32V microcontroller to function as an AMS controller f
 - **Color Mapping**: Filament type and status visualization
 
 ### Communication Protocol
-- **BambuBus Integration**: Native protocol support for Bambu Lab printers
+- **BambuBus Integration**: Native protocol support for Bambu Lab printers (see [Bambu-Bus Protocol](https://github.com/Bambu-Research-Group/Bambu-Bus.git) for specification details)
 - **Real-Time Status**: Filament presence, motion state, error reporting
 - **Command Processing**: Motion commands, configuration updates
-- **CRC Validation**: Data integrity verification
+- **CRC Validation**: Data integrity verification with CRC16/CRC8 checksums
 
 ### Motion Control System  
 - **AS5600 Encoder**: High-precision magnetic position sensing
@@ -247,6 +247,20 @@ platformio device monitor --baud 115200
 - **Flash Operations**: Incorrect implementation can brick the device
 - **Motion Control**: Timing changes can cause mechanical issues
 - **LED Control**: Channel configuration must match hardware
+
+## 🔗 Related Projects and Resources
+
+This project builds upon and relates to several other open-source initiatives in the Bambu Lab ecosystem:
+
+### Protocol Documentation and Implementation
+- **[Bambu-Bus Protocol](https://github.com/Bambu-Research-Group/Bambu-Bus.git)** - Reference implementation and documentation of the BambuBus communication protocol used in this firmware
+- **[BMCU Wiki](https://github.com/xwzkj/bmcu-wiki.git)** - Comprehensive wiki documentation for BMCU (Bambu Lab Microcontroller Unit) systems and protocols
+
+### Alternative Implementations  
+- **[BMCU Alternative Implementation](https://github.com/karlingen/BMCU.git)** - Alternative approach to BMCU firmware development
+- **[BMCU370 Project](https://github.com/krrr/BMCU370.git)** - Specialized implementation for BMCU370 controllers, closely related to this project's target hardware
+
+These repositories provide valuable context, protocol specifications, and alternative approaches that complement this firmware implementation. Users interested in understanding the broader Bambu Lab ecosystem or contributing to protocol development should explore these resources.
 
 ## 🤝 Contributing
 

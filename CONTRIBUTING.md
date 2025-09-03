@@ -199,6 +199,21 @@ Many aspects of this project cannot be properly tested without:
 - **Upload Problems**: Check WCH-Link connection and drivers
 - **Protocol Issues**: Validate BambuBus implementation carefully
 
+## 📚 Additional Resources
+
+### Reference Documentation
+- **[Bambu-Bus Protocol](https://github.com/Bambu-Research-Group/Bambu-Bus.git)** - Official protocol specification and reference implementation
+- **[BMCU Wiki](https://github.com/xwzkj/bmcu-wiki.git)** - Comprehensive BMCU system documentation and technical details
+- **[BMCU Alternative Implementation](https://github.com/karlingen/BMCU.git)** - Alternative firmware approaches and techniques
+- **[BMCU370 Project](https://github.com/krrr/BMCU370.git)** - Hardware-specific implementation examples
+
+### Development Tools
+- **PlatformIO Documentation**: https://docs.platformio.org/
+- **CH32V Resources**: WCH official documentation and examples
+- **Arduino Framework**: Standard API reference and libraries
+
+These resources provide essential context for understanding the broader ecosystem and can help guide development decisions, especially when working with BambuBus protocol implementation or hardware-specific features.
+
 ## 📄 Code of Conduct
 
 ### Professional Standards

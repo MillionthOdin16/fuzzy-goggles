@@ -12,10 +12,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - GitHub Copilot instructions for development guidance
 - Source code documentation in src/README.md
 - Project gitignore configuration
+- Related projects and resources section with references to:
+  - Bambu-Bus Protocol repository for official protocol specification
+  - BMCU Wiki for technical documentation and system details
+  - Alternative BMCU implementations for development reference
+  - BMCU370 project for hardware-specific examples
 
 ### Changed
 - Improved general documentation structure and accessibility
 - Enhanced development workflow documentation
+- Updated BambuBus protocol references to link to official specification
+- Expanded technical context with ecosystem project references
 
 ### Fixed
 - Build artifact management with proper gitignore

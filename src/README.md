@@ -12,9 +12,9 @@ This directory contains the complete firmware source code for the CH32V203F8P6 A
 
 ### Communication System
 - **`BambuBus.cpp/.h`** - Custom communication protocol for Bambu Lab printer integration
-  - Protocol version 5 implementation with CRC validation
+  - Protocol version 5 implementation with CRC validation (see [Bambu-Bus Protocol](https://github.com/Bambu-Research-Group/Bambu-Bus.git) for specification)
   - Filament status reporting and motion command processing
-  - Message parsing and response generation
+  - Message parsing and response generation compatible with official protocol standards
 
 ### Hardware Interface
 - **`ADC_DMA.cpp/.h`** - High-performance analog-to-digital conversion with DMA
@@ -131,3 +131,15 @@ The firmware is configured for the following hardware setup:
 - Motion_control manages physical movement
 - Flash_saves provides persistent storage
 - Debug_log enables runtime diagnostics
+
+## 📚 Reference Resources
+
+For developers working with this codebase, these external resources provide essential context:
+
+### Protocol and System Documentation
+- **[Bambu-Bus Protocol](https://github.com/Bambu-Research-Group/Bambu-Bus.git)** - Official protocol specification referenced by BambuBus implementation
+- **[BMCU Wiki](https://github.com/xwzkj/bmcu-wiki.git)** - Technical documentation for BMCU systems and hardware interfaces
+- **[BMCU Alternative Implementation](https://github.com/karlingen/BMCU.git)** - Alternative firmware approaches and implementation patterns
+- **[BMCU370 Project](https://github.com/krrr/BMCU370.git)** - Hardware-specific examples for BMCU370 controllers
+
+These repositories are invaluable for understanding protocol specifications, hardware interfaces, and seeing alternative implementation approaches that can inform development decisions.
