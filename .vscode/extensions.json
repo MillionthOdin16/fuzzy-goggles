@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "platformio.platformio-ide",
+        "ms-vscode.cpptools",
+        "ms-vscode.cpptools-extension-pack",
+        "xaver.clang-format",
+        "twxs.cmake",
+        "ms-vscode.hexeditor",
+        "cortex-debug.cortex-debug"
+    ]
+}
